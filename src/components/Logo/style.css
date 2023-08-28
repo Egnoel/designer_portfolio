@@ -1,0 +1,29 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 10px;
+}
+
+.logo_img {
+    width: 64px;
+    height: 64px;
+
+}
+
+.logo_btn {
+    width: 228px;
+    height: 56px;
+    border-radius: 25px;
+    color: #FFF7F0;
+    background-color: black;
+}
+
+.logo_btn:hover {
+    background-color: #755CDE;
+    color: #FFF7F0;
+    border: none;
+
+}

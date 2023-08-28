@@ -1,0 +1,10 @@
+.motto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.motto>p {
+    color: #7A746E
+}

@@ -1,0 +1,122 @@
+.skills {
+    display: grid;
+    grid-template-areas: "skill1 skill2 skill3 skill4"
+        "skill1 skill5 skill5 skill6";
+    grid-template-columns: 354px 164px 164px 354px;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15px;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.skill1 {
+    grid-area: skill1;
+    background-color: #755CDE;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    color: #FFF
+}
+
+.skill1_img {
+    width: 128px;
+    height: 192px;
+    object-fit: contain;
+    align-self: flex-end;
+}
+
+.skill2 {
+    grid-area: skill2;
+
+    background-color: #F6A560;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+    color: #FFF
+}
+
+.skill2_img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    align-self: flex-end;
+}
+
+.skill3 {
+    grid-area: skill3;
+    background-color: #F39E9E;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+    color: #FFF
+}
+
+.skill3_img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    align-self: flex-end;
+}
+
+.skill4 {
+    grid-area: skill4;
+    background-color: #61C4B7;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+    color: #FFF
+}
+
+.skill4_img {
+    width: 160px;
+    height: 64px;
+    object-fit: contain;
+    align-self: flex-end;
+}
+
+.skill5 {
+    grid-area: skill5;
+    background-color: #EB7565;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+    color: #FFF
+}
+
+.skill5_img {
+    width: 128px;
+    height: 64px;
+    object-fit: contain;
+    align-self: flex-end;
+}
+
+.skill6 {
+    grid-area: skill6;
+    background-color: #552049;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+    color: #FFF
+}
+
+.skill6_img {
+    width: 128px;
+    height: 64px;
+    object-fit: contain;
+    align-self: flex-end;
+}

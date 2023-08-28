@@ -1,0 +1,47 @@
+.amy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 1110px;
+    height: 445px;
+}
+
+.amy_image {
+    width: 445px;
+    height: 445px;
+
+}
+
+.amy_image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.amy_description {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    width: 540px;
+    height: 306px;
+}
+
+.amy_description>button {
+    width: 228px;
+    height: 56px;
+    text-align: center;
+    background-color: #EB7565;
+    color: #FFF7F0;
+    border: none;
+    border-radius: 25px;
+}
+
+.amy_description>button:hover {
+    background-color: #F6A560;
+    color: #FFF7F0;
+    border: none;
+    cursor: pointer;
+}
