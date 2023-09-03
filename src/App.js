@@ -1,5 +1,7 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import Carousel from "./components/Carousel";
+import Contact from "./components/Contact";
 
 import Logo from "./components/Logo";
 import Motto from "./components/Motto";
@@ -13,7 +15,9 @@ function App() {
       <Motto />
       <Skills />
       <Banner />
-      <Works />
+      <Carousel />
+      <Contact />
+      <Logo />
     </div>
   );
 }

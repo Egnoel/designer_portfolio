@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     gap: 25px;
     margin-left: 5%;
     margin-right: 5%;
@@ -27,6 +28,12 @@
     gap: 33px;
     width: 540px;
     height: 306px;
+}
+
+.amy_description>p {
+    display: flex;
+    text-wrap: wrap;
+    width: 75%;
 }
 
 .amy_description>button {

@@ -9,7 +9,9 @@ const Banner = () => {
         <img src={amy} alt="" />
       </div>
       <div className="amy_description">
-        <h2>I'm Amy, and I'd love to work on your next project</h2>
+        <h2>
+          I'm Amy, and I'd love to <br /> work on your next project
+        </h2>
         <p>
           I love working with others to create beautiful design solutions. I've
           designed everything from brand illustrations to complete mobile apps.

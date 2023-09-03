@@ -3,9 +3,8 @@
     grid-template-areas: "skill1 skill2 skill3 skill4"
         "skill1 skill5 skill5 skill6";
     grid-template-columns: 354px 164px 164px 354px;
-    align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    justify-content: center;
+    margin-bottom: 20px;
     margin-top: 15px;
     width: 100%;
     gap: 10px;

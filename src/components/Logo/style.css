@@ -1,11 +1,12 @@
 .logo {
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    align-items: center;
     margin-top: 2%;
     margin-bottom: 10px;
+    width: 72%;
 }
+
 
 .logo_img {
     width: 64px;

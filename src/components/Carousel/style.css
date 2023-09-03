@@ -1,0 +1,24 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.image-container>img {
+    width: 540px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.carousel_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
