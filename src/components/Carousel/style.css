@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
+    gap: 20px;
 }
 
 .image-container {
@@ -21,4 +23,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 15px;
+}
+
+.carousel_btn>button {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+}
+
+.carousel_btn>button:hover {
+    background-color: #755CDE;
+    border: none;
 }

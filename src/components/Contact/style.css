@@ -1,0 +1,38 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 72%;
+    color: #FFF7F0;
+    background-color: #030303;
+    height: 320px;
+    gap: 200px;
+}
+
+.contact_description {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 159px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact>button {
+    width: 228px;
+    height: 56px;
+    text-align: center;
+    background-color: #EB7565;
+    color: #FFF7F0;
+    border: none;
+    border-radius: 25px;
+}
+
+.contact>button:hover {
+    background-color: #F6A560;
+    color: #FFF7F0;
+    border: none;
+    cursor: pointer;
+}
