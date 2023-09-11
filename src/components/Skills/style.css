@@ -119,3 +119,22 @@
     object-fit: contain;
     align-self: flex-end;
 }
+
+@media only screen and (max-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-areas: "skill1 skill2 skill3"
+            "skill1 skill5 skill5"
+            "skill4 skill6 skill6";
+        grid-template-columns: 333px 155px 155px;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .skill6 {
+        height: 182px;
+    }
+}

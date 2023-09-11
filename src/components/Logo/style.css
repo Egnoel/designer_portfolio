@@ -20,11 +20,18 @@
     border-radius: 25px;
     color: #FFF7F0;
     background-color: black;
+    border: none;
 }
 
 .logo_btn:hover {
     background-color: #755CDE;
     color: #FFF7F0;
     border: none;
+    cursor: pointer;
+}
 
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 80%;
+    }
 }
