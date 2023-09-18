@@ -11,8 +11,8 @@
 }
 
 .amy_image {
-    width: 445px;
-    height: 445px;
+    width: 222px;
+    height: 222px;
 
 }
 
@@ -53,11 +53,11 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 400px) {
     .amy {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+
         align-items: center;
         gap: 35px;
 
@@ -66,7 +66,41 @@
     }
 
     .amy_image {
-        width: 110%;
+        width: 445px;
         height: 445px;
+    }
+
+    .amy_description {
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        width: 40%;
+        height: 306px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .amy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .amy_image {
+        width: 50%;
+        height: 50%;
+    }
+
+    .amy_description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        gap: 10px;
     }
 }

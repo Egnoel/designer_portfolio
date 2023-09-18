@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: "skill1 skill2 skill3 skill4"
         "skill1 skill5 skill5 skill6";
-    grid-template-columns: 354px 164px 164px 354px;
+    grid-template-columns: 177px 82px 82px 177px;
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 15px;
@@ -120,7 +120,8 @@
     align-self: flex-end;
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
     .skills {
         display: grid;
         grid-template-areas: "skill1 skill2 skill3"
@@ -137,4 +138,19 @@
     .skill6 {
         height: 182px;
     }
+}
+
+@media only screen and (max-width: 399px) {
+    .skills {
+        display: grid;
+        grid-template-areas: "skill1 skill1"
+            "skill2 skill3"
+            "skill4 skill4"
+            "skill5 skill5"
+            "skill6 skill6";
+        grid-template-columns: 159px 159px;
+        width: 100%;
+
+    }
+
 }

@@ -38,3 +38,12 @@
     background-color: #755CDE;
     border: none;
 }
+
+@media only screen and (max-width: 399px) {
+    .image-container>img {
+        width: 270px;
+        height: 180px;
+        object-fit: cover;
+    }
+
+}

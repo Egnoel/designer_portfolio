@@ -36,3 +36,42 @@
     border: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        width: 90%;
+        color: #FFF7F0;
+        background-color: #030303;
+        height: 320px;
+        gap: 200px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        width: 90%;
+        color: #FFF7F0;
+        background-color: #030303;
+        height: 322px;
+        gap: 10px;
+    }
+
+    .contact_description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+}
