@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 15px;
-    width: 72%;
+    width: 90%;
     color: #FFF7F0;
     background-color: #030303;
     height: 320px;
@@ -37,7 +37,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 400px) {
+@media only screen and (max-width: 700px) and (min-width: 400px) {
     .contact {
         display: flex;
         flex-direction: row;

@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 
 .App {
   display: flex;
@@ -10,4 +13,5 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }

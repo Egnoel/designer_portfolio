@@ -2,19 +2,19 @@
     display: grid;
     grid-template-areas: "skill1 skill2 skill3 skill4"
         "skill1 skill5 skill5 skill6";
-    grid-template-columns: 177px 82px 82px 177px;
+    grid-template-columns: 170px 120px 120px 170px;
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 15px;
-    width: 100%;
-    gap: 10px;
+    width: 90%;
+    gap: 5px;
 
 }
 
 .skill1 {
     grid-area: skill1;
     background-color: #755CDE;
-    height: 364px;
+    height: 182px;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -23,8 +23,8 @@
 }
 
 .skill1_img {
-    width: 128px;
-    height: 192px;
+    width: 64px;
+    height: 96px;
     object-fit: contain;
     align-self: flex-end;
 }
@@ -33,7 +33,7 @@
     grid-area: skill2;
 
     background-color: #F6A560;
-    height: 182px;
+    height: 91px;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -42,8 +42,8 @@
 }
 
 .skill2_img {
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
     object-fit: contain;
     align-self: flex-end;
 }
@@ -51,7 +51,7 @@
 .skill3 {
     grid-area: skill3;
     background-color: #F39E9E;
-    height: 182px;
+    height: 91px;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -60,8 +60,8 @@
 }
 
 .skill3_img {
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
     object-fit: contain;
     align-self: flex-end;
 }
@@ -69,7 +69,7 @@
 .skill4 {
     grid-area: skill4;
     background-color: #61C4B7;
-    height: 182px;
+    height: 91px;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -78,8 +78,8 @@
 }
 
 .skill4_img {
-    width: 160px;
-    height: 64px;
+    width: 80px;
+    height: 32px;
     object-fit: contain;
     align-self: flex-end;
 }
@@ -87,7 +87,7 @@
 .skill5 {
     grid-area: skill5;
     background-color: #EB7565;
-    height: 158px;
+    height: 86px;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -96,8 +96,8 @@
 }
 
 .skill5_img {
-    width: 128px;
-    height: 64px;
+    width: 64px;
+    height: 32px;
     object-fit: contain;
     align-self: flex-end;
 }
@@ -105,7 +105,7 @@
 .skill6 {
     grid-area: skill6;
     background-color: #552049;
-    height: 158px;
+    height: 86px;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -114,14 +114,14 @@
 }
 
 .skill6_img {
-    width: 128px;
-    height: 64px;
+    width: 64px;
+    height: 32px;
     object-fit: contain;
     align-self: flex-end;
 }
 
 
-@media only screen and (min-width: 400px) and (max-width: 768px) {
+@media only screen and (min-width: 400px) and (max-width: 700px) {
     .skills {
         display: grid;
         grid-template-areas: "skill1 skill2 skill3"
@@ -136,6 +136,10 @@
     }
 
     .skill6 {
+        height: 182px;
+    }
+
+    .skill4 {
         height: 182px;
     }
 }
